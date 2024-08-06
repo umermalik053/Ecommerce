@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: whitesmoke; */
+}
+.container {
+    background-color: white;
+  /* background-color: antiquewhite; */
+  /* border: 1px solid black; */
+  width: 150vmin;
+  height: 90vmin;
+  display: flex;
+}
+.child1 {
+  width: 75vmin;
+  height: 90vmin;
+  /* border: 1px solid black; */
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginimg {
+  width: 75vmin;
+  height: 70vmin;
+}
+
+.child2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.log-heading{
+    font-size: 40px;
+    
+}
+.subheading-log{
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+.form-log {
+  display: flex;
+  flex-direction: column;
+  width: 60vmin;
+}
+
+.input-log {
+  margin-top: 20px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid Grey;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#create-acc {
+  border: none;
+  outline: none;
+  background-color: #db4444;
+  padding: 10px 0px 15px 0px;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.with-google{
+    border: none;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 0px 15px 0px;
+    font-size: 18px;
+    
+    
+}
+.google{
+    padding-right: 10px;
+    margin-bottom: -10px;
+    width: 45px;
+    height: 30px;
+}
+.login-switch{
+    color: black;
+    text-decoration: none;
+}
+.have-account{
+    margin-top: 20px;
+    color: grey;
+}

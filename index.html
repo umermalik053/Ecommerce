@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="child1">
+          <img class="loginimg" src="./assets/loginimg.png" alt="" />
+        </div>
+        <div class="child2">
+          <div class="child2-main">
+            <h1 class="log-heading">Create an account</h1>
+         <p class="subheading-log">Enter your detail below</p>
+
+         <div class="form-log">
+          
+          <input class="input-log" id="name" type="text" placeholder="Name">
+          <input class="input-log" id="email" type="text" placeholder="Email or Phone Number">
+          <input class="input-log" id="password" type="password" placeholder="Password">
+
+          <button id="create-acc">Create Account</button>
+
+          <button class="with-google"> <img class="google" src="./assets/google-logo.png" alt="">Signup with google</button>
+
+
+          <h4 class="have-account">Already have an account? <a class="login-switch" href="./login-signup/login.html">Log in</a></h4>
+          
+         </div>
+         
+         
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./scripts/firebase.js"></script>
+
+  </body>
+</html>
